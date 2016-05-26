@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="test" name="transport" basedir=".">
   <property name="name"           value="transport"/>
-  <property name="version"        value="0.2.4"/>
-  <property name="versionDate"    value="2015-12-17"/>
-  <property name="project_name"   value="xlattice"/>
+  <property name="version"        value="0.2.5"/>
+  <property name="versionDate"    value="2016-05-26"/>
+  <property name="project_name"   value="xlTransport_java"/>
   <property file="project.properties"/>
   <!-- ======================================================= -->
   <!-- S O U R C E   P R O P E R T I E S                       -->
@@ -321,4 +321,5 @@
     <delete dir="${dist_dir}"/>
   </target>
 </project>
+
 

@@ -1,0 +1,8 @@
+# xlTransport_java/.dvcz/projCfg.local
+
+bash:local:time
+
+bin:local:test.client.private
+bin:local:test.client.public
+bin:local:test.server.private
+bin:local:test.server.public
