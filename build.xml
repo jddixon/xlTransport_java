@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="test" name="transport" basedir=".">
+<project default="test" name="xlTransport_java" basedir=".">
   <property name="name"           value="transport"/>
-  <property name="version"        value="0.2.5"/>
-  <property name="versionDate"    value="2016-05-26"/>
-  <property name="project_name"   value="xlTransport_java"/>
+  <property name="version"        value="0.2.6"/>
+  <property name="versionDate"    value="2016-07-08"/>
+  <property name="project_name"   value="xlattice"/>
   <property file="project.properties"/>
   <!-- ======================================================= -->
   <!-- S O U R C E   P R O P E R T I E S                       -->
   <!-- ======================================================= -->
   <!-- this is an XLattice subproject, so root_dir is one up   -->
-  <property name="root_dir"       value=".."/>
+  <property name="root_dir"       value="../xlattice_java"/>
   <property name="src_dir"        value="src/java"/>
   <property name="test_src_dir"   value="src/test"/>
   <property name="xdoc_dir"       value="xdocs"/>
@@ -18,7 +18,7 @@
   <!-- ======================================================= -->
   <property name="build_dir" value="target"/>
   <property name="classes_dir"      value="${build_dir}/classes"/>
-  <property name="lib_dir"          value="../lib"/>
+  <property name="lib_dir"          value="../xlattice_java/lib"/>
   <property name="test_classes_dir" value="${build_dir}/test-classes"/>
   <property name="test_report_dir"  value="${build_dir}/test-reports"/>
   <property name="javadoc_dir"
@@ -285,7 +285,7 @@
         <fileset dir="${lib_dir}/junit" includes="*"/>
     </copy>
     <!-- project control files -->
-    <copy todir="${dist_dir}/${component}" file="../LICENSE.html" />
+    <copy todir="${dist_dir}/${component}" file="${root_dir}/LICENSE.html" />
     <copy todir="${dist_dir}/${component}" file="build.xml" />
     <copy todir="${dist_dir}/${component}" file="CHANGES" />
     <copy todir="${dist_dir}/${component}" file="project.properties" />
@@ -299,6 +299,7 @@
       <fileset dir="${test_src_dir}" includes="**/*.java"/>
     </copy>
     <!-- any documentation -->
+    <mkdir dir="${xdoc_dir}"/>
     <copy todir="${dist_dir}/${component}/${xdoc_dir}" >
       <fileset dir="${xdoc_dir}" includes="**/*.css"/>
       <fileset dir="${xdoc_dir}" includes="**/*.gif"/>
@@ -321,5 +322,6 @@
     <delete dir="${dist_dir}"/>
   </target>
 </project>
+
 
 

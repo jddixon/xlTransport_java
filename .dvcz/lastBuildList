@@ -7,27 +7,43 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-xlTransport_java v0.2.5
-2016-05-26 16:38:48
+xlTransport_java v0.2.6
+2016-07-08 17:21:45
 # START CONTENT #
 xlTransport_java
  .dvcz
-  projCfg ba7962206477997e5c7443389575ed602a890edf
+  builds 5464c7ec7b14db44ee2c381a1c4856f38e9cec23
+  lastBuildList b3764b3196d5f8cecc5cb1c1c071d5a6ad0f094e
+  projCfg 1ea6d8a7b6ac685152224cde1b3903022b658f50
   projCfg.local 369f4a4fb0169a154847eebcaeb0cbd300c91c76
-  version 6b256ecf1f6b865f2811447b716e2b5cc494548e
- .gitignore 45c1a25af208e03923f170c817406cbde528583b
- CHANGES 5ed8cc1bc180a5962ba00988f8e668b38207b27b
+  version 8325408b8f619801a3ab3743b67da4e9da456abb
+ .gitignore 73b879f8842850058bca4519cca9b24d39bcf052
+ CHANGES 6271f9293cd25e18746ca4c75b68eb4e29de9c4a
  LICENSE.html 4d0038a843d3f3e0553fca7df2c17ad053916e5d
  LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
  README.bug 33fb8fa9636f85ffce1a786fd466399ce5e9373a
- README.md 49baa70baa3559ff9e10e9cbb0fe9628ee0073c1
- TODO d00a87581475782d4b5c0394b786555076bf957d
+ README.md d3e1ddbf75ccb4b5256ef4bf62ad87fdc1f44f5a
+ TODO b62c448638f4411044d1bae2f515793cd77d86a1
  bkp2U c704b1b1e9b2988c6bfaed842f48947c845feaac
  build.sh 8844d742637d7668927c8c39cc2fba6e6b8736d7
- build.xml cc6843c9ac6d04cc87e89703ce38347ada552303
+ build.xml 3cd12b64c5ad5ed1e1a026bf6231d9fc5ad6071a
  classpath.sh 76a2ec0287f67fe1074714657aa637f2f706576f
  countem 1e8f458149308e60cbe6dbfbfb6f7b4f9fbd9478
  ghpDoc
+  css
+   LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
+   ghp.css 1d6ebe8a6cf8f61f4645a793cb087dfae2420f33
+   main.css 018ed80b8a6e6607bc7c08595fa5a7fa56853885
+   normalize.css cba40c7ce3d558d00ff79d7505ac3d348015ec9c
+  img
+   GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
+   chunk.jpg de2b27e41f1547fc14b13399f5906b4303b49657
+   chunk2.jpg d0593d312dbb8ea837c17b28cb639726e29ea93b
+   cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
+   simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
+   xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
+   xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
+  index.md f2ff45db561748119c6adc5a9fcc1a3f1ff97543
  installit 31a7d16b96694e2bd3c3df92e0c1214f844f98d5
  keystores
   test.client.private f95c65490a4709650dbbb7ad7e376269cd77d245
@@ -62,7 +78,7 @@ xlTransport_java
       SchedulableConnection.java d56626160070f588ab8d093024b8688da48c3594
       SchedulableConnector.java 556963ed66d4b09b89f603e68766424e149cac87
       StreamConnection.java b72ff638a8fb33755d34f1516c0ba71e16e778a5
-      Version.java 21a6f07e94f86e9ccccc765c7fb60d668c4732a0
+      Version.java d7f7e8d0e1aa2b7828cfdf1997daee812bd1311b
       mockery
        ByteBufferInputStream.java 3b29cf4b786427891844df86af6653f86e1dd209
        ByteBufferOutputStream.java 5525bccf4e52e4f8c589e2531121928788361481
@@ -151,6 +167,7 @@ xlTransport_java
  test.server.private 2a39f6a946d273bd49ede39086b04654b26e277d
  test.server.public bdbf280e83e219179631feb6d2decc0f57e8512e
  time d23faf4efd67c55dc39a29de001b59ad526383dd
+ xdocs
 # END CONTENT #
 
-Z3kiSNiql9jKJCZE9OFlsNaSy3HpJHn7K33BPBl7tM3bZfEz08ZnL+lvJZ/yGR7jW9+mjN8mumUxhUdIYLxiYvboX0G9YwhfmCygOkiNQvaCFqFSGe/z41UC8bf7dLHGjNcHNpWFk1WVzOPrGRLyMPw3geLFHU4b7nB2eBuYdAmv3RSHlGWFSRM3P1Bhk+5AeRlqczftPaUnsP9Lu+wdzA2k4PrY/dP2xPSJq33sKuE57WIj8n7Y7jtpw221956HQWpQOiehshvyodlarpkVGUcrByD9NKf4EkpKyX9ZIhDNXN13+1Jl53vqXTNKPhtXRQ7nx9HedDtvcgzFbmN5Jw==
+MJP+/TW2MlNZXSdSyUBPTgvR4Zpfjhka6XNXyUsfT4teV7iOpbcKCMGryOwurEU24tkN79oLj0Lm/r3iPMSZq2uiP2se6Eu4GI+kQyb9RoTSIJFDqpUs+w/UWjCtv2mXSR0GzDiV9eKCv45omsqG29qT44Q/0cPz8lZP6OdjwpDHZo+4cFMwry/f3QljMRDvIOH0hrmzBYqP/xwT1FR98XRQ2yL7lvi7vlkLQClNm7OgRcH+h3Sbt82vn1OAT87aihXdcM4b89sYfRq7hoOfX5FGvDLQvc80klISfvkpx4GssUmFQevL4OYjijtP+rmyHGpxPu+1DQK5JiahvNFqhw==
