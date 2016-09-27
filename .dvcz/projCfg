@@ -23,8 +23,8 @@ code:std:.gitignore
 code:std:.gitignore.local
 code:std:/var/app/sharedev/config/projCfg
 code:std:project.properties
+txt:std:LICENSE-XLATTICE.md
 txt:std:CHANGES
-txt:std:LICENSE.md
 txt:std:README.bug
 txt:std:README.md
 txt:std:TODO
@@ -37,7 +37,6 @@ bash:std:build.sh
 bash:std:build.xml
 bash:std:classpath.sh
 bash:local:time
-html:local:LICENSE.html
 bin:local:test.client.private
 bin:local:test.client.public
 bin:local:test.server.private

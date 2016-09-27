@@ -1,5 +1,7 @@
 # xlTransport_java/.dvcz/projCfg.local
 
+txt:std:LICENSE-XLATTICE.md
+
 bash:local:time
 
 bin:local:test.client.private

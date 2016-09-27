@@ -1,5 +1,8 @@
 // ~/dev/java/xlattice_j/transport/CHANGES
 
+v0.2.7
+    2016-09-27
+        * correct licensing                                         SLOC 8328
 v0.2.6
     2016-07-08
         * add ghpDoc/{css,img}                                      SLOC 8285
@@ -27,6 +30,7 @@ v0.2.3
         * added transport/udp/Udp
     06-05-19 
         * dropped build.sh, classpath.sh, added CHANGES
+
 
 
 

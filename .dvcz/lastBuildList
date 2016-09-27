@@ -7,28 +7,29 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-xlTransport_java v0.2.6
-2016-07-08 17:21:45
-# START CONTENT #
+xlTransport_java v0.2.7
+2016-09-27 19:44:13
+# BEGIN CONTENT #
 xlTransport_java
  .dvcz
-  builds 5464c7ec7b14db44ee2c381a1c4856f38e9cec23
-  lastBuildList b3764b3196d5f8cecc5cb1c1c071d5a6ad0f094e
-  projCfg 1ea6d8a7b6ac685152224cde1b3903022b658f50
-  projCfg.local 369f4a4fb0169a154847eebcaeb0cbd300c91c76
-  version 8325408b8f619801a3ab3743b67da4e9da456abb
+  builds f8d184154f0a3fe893ae229a3bba0c42a91319e4
+  copyright fdc6cab0fd7077cddba743c357a0e48e7179c181
+  lastBuildList bf076bc87d6ffd9756df2bd7e41910b7a63619f5
+  license 31158001bd41a34771e96dad11a089f4863dea28
+  projCfg 1e135ca97443c8cbfe14231c4dd8d3a223ef00d1
+  projCfg.local 1350a29e45767cb324dc2a2e7d8e550e363871d4
+  version 658634af428784ed3027e3eab7710fd5ffbbac84
  .gitignore 73b879f8842850058bca4519cca9b24d39bcf052
- CHANGES 6271f9293cd25e18746ca4c75b68eb4e29de9c4a
- LICENSE.html 4d0038a843d3f3e0553fca7df2c17ad053916e5d
- LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
+ CHANGES 41a4111e565963d3150690ecbe377a13795b02ad
+ LICENSE-XLATTICE.md bee3a87aa2ec7180859e80c7d7e6167a9c60a26a
  README.bug 33fb8fa9636f85ffce1a786fd466399ce5e9373a
  README.md d3e1ddbf75ccb4b5256ef4bf62ad87fdc1f44f5a
  TODO b62c448638f4411044d1bae2f515793cd77d86a1
  bkp2U c704b1b1e9b2988c6bfaed842f48947c845feaac
  build.sh 8844d742637d7668927c8c39cc2fba6e6b8736d7
- build.xml 3cd12b64c5ad5ed1e1a026bf6231d9fc5ad6071a
+ build.xml a9e2bc385747c03afa2460e3f353b2058583dabd
  classpath.sh 76a2ec0287f67fe1074714657aa637f2f706576f
- countem 1e8f458149308e60cbe6dbfbfb6f7b4f9fbd9478
+ countem db2611d7b1fbfa59b9767d8c8263fed9aa421a17
  ghpDoc
   css
    LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
@@ -78,7 +79,7 @@ xlTransport_java
       SchedulableConnection.java d56626160070f588ab8d093024b8688da48c3594
       SchedulableConnector.java 556963ed66d4b09b89f603e68766424e149cac87
       StreamConnection.java b72ff638a8fb33755d34f1516c0ba71e16e778a5
-      Version.java d7f7e8d0e1aa2b7828cfdf1997daee812bd1311b
+      Version.java 79a1da27abdaddec5b4de836b4d8d0e5d406c6f4
       mockery
        ByteBufferInputStream.java 3b29cf4b786427891844df86af6653f86e1dd209
        ByteBufferOutputStream.java 5525bccf4e52e4f8c589e2531121928788361481
@@ -170,4 +171,4 @@ xlTransport_java
  xdocs
 # END CONTENT #
 
-MJP+/TW2MlNZXSdSyUBPTgvR4Zpfjhka6XNXyUsfT4teV7iOpbcKCMGryOwurEU24tkN79oLj0Lm/r3iPMSZq2uiP2se6Eu4GI+kQyb9RoTSIJFDqpUs+w/UWjCtv2mXSR0GzDiV9eKCv45omsqG29qT44Q/0cPz8lZP6OdjwpDHZo+4cFMwry/f3QljMRDvIOH0hrmzBYqP/xwT1FR98XRQ2yL7lvi7vlkLQClNm7OgRcH+h3Sbt82vn1OAT87aihXdcM4b89sYfRq7hoOfX5FGvDLQvc80klISfvkpx4GssUmFQevL4OYjijtP+rmyHGpxPu+1DQK5JiahvNFqhw==
+Szp8Upfk2Gx67Mr4/zG+3iiatQ7NYgGvr+wFECSTWUPouv81wel1peI6FH7TwMdtkHYUReP8JNYQ8Qrby/ej8pPVCjYTWwgVfSY5PzxyYRfbMDL3ZAo/JlrCEZpx702k6EhhfRf4ITIDmL5RmM+bh9nQThYYSC3gyNwmklW8ZV6EJUZa2p1YXZeaq96HpR1b9cYDpDw8nXEbTuoZSh1nJdMpsBjxSfM/MJHkI2szlSafnephEBRJyNNldf2hhvCo8WreW7oCD/XWsW39VGc8MtkUGwLPNNiIqTDh42HtdttWL2PCiSIwzvCbSqsbH044yQTlYvaPFQCgiWRHIrdHGg==
