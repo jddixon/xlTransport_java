@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="test" name="xlTransport_java" basedir=".">
   <property name="name"           value="transport"/>
-  <property name="version"        value="0.2.6"/>
-  <property name="versionDate"    value="2016-07-08"/>
+  <property name="version"        value="0.2.7"/>
+  <property name="versionDate"    value="2016-09-27"/>
   <property name="project_name"   value="xlattice"/>
   <property file="project.properties"/>
   <!-- ======================================================= -->
@@ -285,7 +285,7 @@
         <fileset dir="${lib_dir}/junit" includes="*"/>
     </copy>
     <!-- project control files -->
-    <copy todir="${dist_dir}/${component}" file="${root_dir}/LICENSE.html" />
+    <copy todir="${dist_dir}/${component}" file="${root_dir}/LICENSE-XLATTICE.html" />
     <copy todir="${dist_dir}/${component}" file="build.xml" />
     <copy todir="${dist_dir}/${component}" file="CHANGES" />
     <copy todir="${dist_dir}/${component}" file="project.properties" />
@@ -322,6 +322,7 @@
     <delete dir="${dist_dir}"/>
   </target>
 </project>
+
 
 
 
